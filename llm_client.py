@@ -8,6 +8,7 @@ PROVIDERS = [
     {"name": "openrouter", "base_url": "https://openrouter.ai/api/v1", "model": "openrouter/free", "key_env": "OPENROUTER_API_KEY"},
     {"name": "mistral", "base_url": "https://api.mistral.ai/v1", "model": "mistral-small-latest", "key_env": "MISTRAL_API_KEY"},
     {"name": "sambanova", "base_url": "https://api.sambanova.ai/v1", "model": "Meta-Llama-3.3-70B-Instruct", "key_env": "SAMBANOVA_API_KEY"},
+ {"name": "nvidia", "base_url": "https://integrate.api.nvidia.com/v1", "model": "nvidia/nemotron-3-super-120b-a12b", "key_env": "NVIDIA_API_KEY"},
 ]
 
 def chat(messages: list, temperature: float = 0.3) -> str:
